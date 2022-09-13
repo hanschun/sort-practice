@@ -24,7 +24,7 @@ function partition(items: number[], left: number, right: number): number {
 	return i;
 }
 
-function quickSort(items: number[], left: number, right: number): number[] {
+export function quickSort(items: number[], left: number, right: number): number[] {
 	let index;
 	if (items.length > 1) {
 		index = partition(items, left, right); //index returned from partition
@@ -37,12 +37,3 @@ function quickSort(items: number[], left: number, right: number): number[] {
 	}
 	return items;
 }
-
-describe('quick sort', () => {
-	it('should sort items', () => {
-		const items = [5, 3, 7, 6, 2, 9];
-		const sortedArray = quickSort(items, 0, items.length - 1);
-		console.log(sortedArray); //prints [2,3,5,6,7,9]
-		expect(sortedArray).toEqual([2, 3, 5, 6, 7, 9]);
-	});
-});

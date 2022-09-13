@@ -1,0 +1,32 @@
+{
+  "name": "sort-practice",
+  "version": "1.0.0",
+  "description": "Algorithm practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanschun/sort-practice.git"
+  },
+  "keywords": [
+    "algorithm",
+    "sort",
+    "test"
+  ],
+  "author": "Bison Technologies <developers@bison.dev>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/hanschun/sort-practice/issues"
+  },
+  "homepage": "https://github.com/hanschun/sort-practice#readme",
+  "dependencies": {
+    "typescript": "~4.8.3"
+  },
+  "devDependencies": {
+    "@types/jest": "~29.0.1",
+    "jest": "~29.0.3",
+    "ts-jest": "~29.0.0"
+  }
+}
